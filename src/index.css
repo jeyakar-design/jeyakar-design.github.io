@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Mali, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -16,21 +16,57 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  display: block;
+  text-align: center;
   min-width: 320px;
   min-height: 100vh;
+  
+}
+
+header{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 1000px;
+  margin:auto;
+}
+#logo{
+  width:200px;
+  padding: 20px;
+}
+
+nav{padding-top:20px;flex-grow: 1;}
+
+nav ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left; 
+}
+
+nav li a {
+  display: block;
+  color: #4C4947;
+  text-align: center; 
+  padding: 10px 5px;
+  text-decoration: none; 
+  margin:0px 15px;
+}
+#navbar li a:hover {
+  border-bottom: 3px solid #ddd; /* Light grey background */
+  color: black; /* Black text */
+}
+
+#carousal{
+  display: block;
+  background-color: #F9F6F4;
 }
 
 h1 {
@@ -70,6 +106,3 @@ button:focus-visible {
   }
 }
 
-header{
-  background-color: red;
-}
