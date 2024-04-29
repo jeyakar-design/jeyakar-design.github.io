@@ -175,20 +175,157 @@ const Home = () => {
                     </div>
                   </div>
                   <div id="tab2" className={`tab-content ${activeTabId === 'tab2' ? ' active-content' : ''}`}>
-                      <h2>Content for Tab 2</h2>
-                      <p>This is the content for Tab 2.</p>
+                  <div className="tab-inner-content">
+                    <article>
+                      <h5>My Contributions as an User Researcher</h5>
+                      <ul className="tab-content-list">
+                        <li>Facilitated various research methods, such as interviews, surveys, ethnographic study, usability testing and card sorting.</li>
+                        <li>Analysed the research information & presented concise research reports that communicate findings and recommendations.</li>
+                        <li>Created user personas, journeys, and empathy maps to guide design decisions.</li>
+                        <li>Planned & conducted usability testing to evaluate the effectiveness of the interaction design and gather user feedback for improvements.</li>
+                        <li>Contributed to feature prioritization based on insights derived from user research findings.</li>
+                      </ul>
+                    </article>
+                    <article>
+                      <div className="tags-wrapper light-orange-bg">
+                        <h5>Skills & tools used </h5>
+                        <ul className="list-no-style tags-list">
+                          <li className="tags">Empathy</li>
+                          <li className="tags">Observation</li>
+                          <li className="tags">Planning</li>
+                          <li className="tags">Interviewing Techniques</li>
+                          <li className="tags">Communication</li>
+                          <li className="tags">Facilitation</li>
+                          <li className="tags">Consolidation</li>
+                          <li className="tags">User Interviews</li>
+                          <li className="tags">Ethnographic Study</li>
+                          <li className="tags">Card Sorting</li>
+                          <li className="tags">Usability Testing</li>
+                          <li className="tags">Surveys</li>
+                          <li className="tags">User journey</li>
+                          <li className="tags">Accessibility Tools</li>
+                          <li className="tags">Mural</li>
+                          <li className="tags">Zoom</li>
+                          <li className="tags">Google Suite</li>
+                          <li className="tags">Microsoft office</li>
+                          <li className="tags">Google Analytics</li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
                   </div>
                   <div id="tab3" className={`tab-content ${activeTabId === 'tab3' ? ' active-content' : ''}`}>
-                      <h2>Content for Tab 3</h2>
-                      <p>This is the content for Tab 3.</p>
+                  <div className="tab-inner-content">
+                    <article>
+                      <h5>My Contributions as an Interaction Designer</h5>
+                      <ul className="tab-content-list">
+                        <li>Organised & structured the content in a logical & user-friendly manner to create a precise information architecture with easy navigation & findability.</li>
+                        <li>Sketched prototypes rapidly for ideation, testing & validation.</li>
+                        <li>Created intuitive wireframes and interactive prototypes to illustrate the product's layout, flow, and functionality.</li>
+                        <li>Designed for various screen sizes and devices to ensure the product's functionality and usability across different platforms (e.g., desktop, mobile, tablet).</li>
+                        <li>Incorporated user feedback and data analysis into the design process, ensuring that the product continues to evolve based on user needs and preferences.</li>
+                      </ul>
+                    </article>
+                    <article>
+                      <div className="tags-wrapper light-orange-bg">
+                        <h5>Skills & tools used </h5>
+                        <ul className="list-no-style tags-list">
+                          <li className="tags">Empathy</li>
+                          <li className="tags">User Centered Design</li>
+                          <li className="tags">Rapid Prototyping</li>
+                          <li className="tags">Problem Solving</li>
+                          <li className="tags">User Testing</li>
+                          <li className="tags">Wireframing</li>
+                          <li className="tags">Responsive Design</li>
+                          <li className="tags">Information Architecture</li>
+                          <li className="tags">Card Sorting</li>
+                          <li className="tags">Facilitation</li>
+                          <li className="tags">Collaborative Sketching</li>
+                          <li className="tags">Consolidation</li>
+                          <li className="tags">Mural</li>
+                          <li className="tags">Balsamiq</li>
+                          <li className="tags">Sketch</li>
+                          <li className="tags">Figma</li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
                   </div>
                   <div id="tab4" className={`tab-content ${activeTabId === 'tab4' ? ' active-content' : ''}`}>
-                    <h2>Content for Tab 4</h2>
-                    <p>This is the content for Tab 4.</p>
+                  <div className="tab-inner-content">
+                    <article>
+                      <h5>My Contributions as a Visual Designer</h5>
+                      <ul className="tab-content-list">
+                        <li>Ensured the design aligned with the company's brand guidelines, including logos, color schemes, and other brand elements.</li>
+                        <li>Created visually appealing and engaging designs that enhance the overall user experience and capture the user's attention.</li>
+                        <li>Selected and applied suitable typefaces, font sizes, and text styling for readability and brand consistency.</li>
+                        <li>Designed interactive elements, such as buttons, menus, forms, and navigation, to be intuitive and user-friendly.</li>
+                        <li>Designed & collaborated with UI developers for subtle animations and micro-interactions that enhance the user experience and provide feedback for user actions (e.g., button presses, hover effects).</li>
+                        <li>Stayed updated on emerging design trends and technologies to bring innovative and engaging interactions to the product.</li>
+                        </ul>
+                    </article>
+                    <article>
+                      <div className="tags-wrapper light-orange-bg">
+                        <h5>Skills & tools used </h5>
+                        <ul className="list-no-style tags-list">
+                          <li className="tags">Visual Communication</li>
+                          <li className="tags">User Centered Design</li>
+                          <li className="tags">Color Theory</li>
+                          <li className="tags">Typography</li>
+                          <li className="tags">Layout & Composition</li>
+                          <li className="tags">Branding</li>
+                          <li className="tags">Graphic Design</li>
+                          <li className="tags">Attention to details</li>
+                          <li className="tags">Creative Thinking</li>
+                          <li className="tags">Transitions</li>
+                          <li className="tags">Animations</li>
+                          <li className="tags">Design System</li>
+                          <li className="tags">User Testing</li>
+                          <li className="tags">Adobe Illustrator</li>
+                          <li className="tags">Adobe Photoshop</li>
+                          <li className="tags">Sketch</li>
+                          <li className="tags">Figma</li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
                   </div>
                   <div id="tab5" className={`tab-content ${activeTabId === 'tab5' ? ' active-content' : ''}`}>
-                    <h2>Content for Tab 5</h2>
-                    <p>This is the content for Tab 5.</p>
+                  <div className="tab-inner-content">
+                    <article>
+                      <h5>My Contributions as a Design Lead</h5>
+                      <ul className="tab-content-list">
+                          <li>Advocated for user-centred design principles within the organisation.</li>
+                          <li>Presented the design concepts and solutions to stakeholders and agreed on the design direction.</li>
+                          <li>Provided design direction and leadership to a team of product designers and UI developers.</li>
+                          <li>Collaborated with cross-functional teams to align product goals and requirements, including product managers, developers, etc.</li>
+                          <li>Established and maintained design systems and guidelines to ensure consistency across the product or platforms.</li>
+                      </ul>
+                    </article>
+                    <article>
+                      <div className="tags-wrapper light-orange-bg">
+                        <h5>Skills & tools used </h5>
+                        <ul className="list-no-style tags-list">
+                          <li className="tags">Leadership</li>
+                          <li className="tags">Strategic Thinking</li>
+                          <li className="tags">UCD Advocate</li>
+                          <li className="tags">Project Management</li>
+                          <li className="tags">Prioritization</li>
+                          <li className="tags">Team Management</li>
+                          <li className="tags">Team Collaboration</li>
+                          <li className="tags">Creative Thinking</li>
+                          <li className="tags">Design Delivery</li>
+                          <li className="tags">Product Ownership</li>
+                          <li className="tags">Design System</li>
+                          <li className="tags">Jira</li>
+                          <li className="tags">Trello</li>
+                          <li className="tags">Mural</li>
+                          <li className="tags">Sketch</li>
+                          <li className="tags">Figma</li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
                   </div>
                 </div>
               </div>
