@@ -1,0 +1,125 @@
+/*===================
+        Banner
+====================*/
+#carousal{
+  display: block;
+  height: 344px;
+}
+.banner-container {
+  display: flex;
+}
+.banner-img {
+  position: relative;
+  width: 500px;
+  text-align: center;
+}
+.banner-img img{
+  width: 470px;
+  position: absolute;
+  left: 6%;
+  top: -40px;
+}
+.banner-content > div {
+  height: 344px;;
+}
+.banner-content h1 {
+  font-size: 2em;
+  line-height: 1.6;
+  font-weight: 600;
+}
+.highlighten-text {
+  color: var(--primary-color);
+}
+
+/*===================
+        About
+====================*/
+.about-section {
+  padding: var(--padding-50) 0;
+}
+
+/*===================
+      Portfolio
+====================*/
+.portfolio-section {
+  padding: var(--padding-50) 0;
+}
+.porfolio-inner-content {
+  display: flex;
+}
+.porfolio-inner-content article:first-child {
+  width: 30%;
+}
+.porfolio-inner-content article:last-child {
+  width: 70%;
+  padding-left: 30px;
+}
+.porfolio-inner-content ul {
+  padding: 0;
+}
+.porfolio-inner-content li {
+  text-align: left;
+  color: var(--brown-color);
+  padding: 10px;
+  width: 75%;
+}
+.porfolio-inner-content li span{
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: var(--light-orange);
+  border: 1px solid var(--brown-color-50);
+  border-radius: 50%;
+}
+.porfolio-form-row {
+  display: flex;
+  padding-top: 30px;
+}
+.porfolio-form-row h4 {
+  margin-top: 10px;
+}
+.porfolio-form-row .portfolio-password {
+  width: 35%;
+}
+.porfolio-form-row .porfolio-form {
+  width: 65%;
+  border-left: 1px solid var(--brown-color-50);
+  padding-left: var(--padding-50);
+}
+.porfolio-form-row form {
+  display: flex;
+}
+.porfolio-form-row input {
+  border: 1px solid var(--brown-color-25);
+  border-radius: 5px;
+  width: 364px;
+  height: 50px;
+  padding: 0 15px;
+  margin-right: 10px;
+}
+.error-message {
+  color: var(--error);
+  font-size: 12px;
+}
+
+/*===================
+      Portfolio
+====================*/
+.connect-section {
+  padding: var(--padding-50) 0;
+}
+.connect-section h2 {
+  padding-bottom: var(--padding-50);
+}
+.connect-section a {
+  color: var(--primary-color);
+}
+.title-with-content {
+  padding-bottom: var(--padding-50);
+}
+.connect-title {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+.connect-link {
+  margin: 0;
+}

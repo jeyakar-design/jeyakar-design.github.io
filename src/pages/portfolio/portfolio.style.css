@@ -1,0 +1,78 @@
+.porfolio .light-orange-bg-title-section {
+  padding-bottom: 90px;
+}
+.porfolio .light-orange-bg-tab-container {
+  margin-top: -92px;
+}
+.porfolio .vertical-center-wrapper {
+  height: 51px;
+}
+.porfolio .tab-title-content {
+  display: flex;
+  align-items: center;
+}
+.porfolio .tab-title-content h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: var(--brown-color);
+}
+.tab-title-number {
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-color: var(--brown-color-50);
+  background-color: var(--light-white-2);
+  border-radius: 50%;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 6px;
+  color: var(--brown-color-50);
+  margin-right: 10px;
+}
+.porfolio .active-tab .tab-title-content {
+  padding: 0;
+}
+.porfolio .active-tab h4 {
+  color: var(--back);
+}
+.porfolio .active-tab .tab-title-number{
+  border-color: var(--black-50);
+  background-color: var(--light-white);
+  color: var(--black-50);
+}
+.porfolio .tab-inner-content {
+  display: block;
+}
+.porfolio .tab-inner-content h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.sub-section {
+  margin-bottom: 40px;
+}
+.sub-section-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--black-2);
+  margin-bottom: 0;
+}
+.sub-section li {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.porfolio-image-wrapper {
+  border: 10px solid #F9F6F4;
+  max-height: 500px;
+  overflow: hidden;
+  display: flex;
+  gap: 10px;
+}
+.porfolio-image-wrapper img{
+  object-fit: contain;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}

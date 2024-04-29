@@ -1,0 +1,53 @@
+/*===================
+        Header
+====================*/
+.header {
+  padding: 10px 20px;
+  background-color: var(--white);
+}
+.header img {
+  cursor: pointer;
+  z-index: 9;
+}
+.sticky {
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  top: 0;
+}
+.header .header-nav {
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding-top: 8px;
+}
+nav ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  justify-content: end;
+  display: flex;
+  width: 100%;
+}
+nav li {
+  float: left; 
+}
+nav li a {
+  display: block;
+  color: #4C4947;
+  text-align: center; 
+  padding: 10px 5px;
+  text-decoration: none; 
+  margin:0px 15px;
+}
+#navbar li a:hover {
+  border-bottom: 3px solid #ddd; /* Light grey background */
+  color: black; /* Black text */
+}

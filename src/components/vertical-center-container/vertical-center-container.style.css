@@ -1,0 +1,8 @@
+.vertical-center-wrapper {
+  display: flex;
+}
+.vertical-center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
