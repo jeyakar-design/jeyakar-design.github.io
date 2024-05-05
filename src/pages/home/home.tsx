@@ -371,7 +371,7 @@ const Home = () => {
                   <div className="porfolio-form-row">
                     <div className="portfolio-password">
                       <h4>Have the password?</h4>
-                      <a href="#" target="_blank" className="button">Enter Portfolio</a>
+                      <a href="/portfolio" target="_blank" className="button">Enter Portfolio</a>
                     </div>
                     <div className="porfolio-form">
                       <h4>Don’t have the password?</h4>

@@ -5,16 +5,19 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && pnpm cp_portoflio && vite build",
     "build:preview": "pnpm vite & pnpm build -w",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "encrypt_portoflio": "staticrypt src/pages/portfolio/index.html --directory public/portfolio -p jeyakar-design",
+    "cp_portoflio": "mkdir -p public/portfolio && cp src/pages/portfolio/* public/portfolio && pnpm encrypt_portoflio"
   },
   "dependencies": {
     "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.0",
+    "staticrypt": "^3.5.0",
     "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
