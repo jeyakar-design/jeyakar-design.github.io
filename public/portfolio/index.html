@@ -10,7 +10,7 @@
 
         tablinks = document.getElementsByClassName("tab");
         for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" active", "");
+          tablinks[i].className = tablinks[i].className.replace(" active-tab", "");
         }
 
         tabcontent = document.getElementsByClassName("tab-content");
@@ -19,7 +19,7 @@
         }
 
         document.getElementById(tabName).style.display = "block";
-        evt.currentTarget.className += " active-content";
+        evt.currentTarget.className += " active-tab";
       }
     </script>
     <header className="header" id="header">
@@ -58,7 +58,7 @@
       <div class="light-orange-bg-tab-container">
         <div class="container">
           <div class="tab-container">
-            <div class="tab active" onclick="openTab(event, 'tab1')">
+            <div class="tab active-tab" onclick="openTab(event, 'tab1')">
               <div class="vertical-center-wrapper">
                 <div class="vertical-center-content">
                   <div class="tab-title-content">
