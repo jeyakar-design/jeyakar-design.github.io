@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import { getImageUrl } from "../utils";
 
 import './header.style.css'
 
@@ -7,7 +8,7 @@ interface Props {
   logoStyle: string,
 }
 
-const Header = ({ menus, logoStyle }: Props) => {
+const Header = ({ menus }: Props) => {
 
   // Hooks instance declarations
   const navigate = useNavigate();
@@ -25,11 +26,7 @@ const Header = ({ menus, logoStyle }: Props) => {
       <div className="container">
         <div className="header-nav">
           <div id="logo" className='logo' onClick={() => navigate('/')}>
-            {logoStyle === 'style1' ?
-              <img src="src/assets/images/JD-logo.svg" alt="jd" title="JD" />
-            :
-              <img src="src/assets/images/JD-logo.svg" alt="jd" title="JD" />
-            }
+            <img src={getImageUrl('JD_logo.svg')} alt="jd" title="JD" />
           </div>
           <nav>
             {menus?.length ?

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Header from '../../components/header';
 import VerticalCenterContainer from '../../components/vertical-center-container';
 import HatStarContent from '../../components/hat-star-content';
+import { getImageUrl } from "../../components/utils";
 
 import '../../assets/styles/common.style.css';
 import './home.style.css';
@@ -54,7 +55,7 @@ const Home = () => {
         <section className="banner light-orange-bg" id="carousal">
           <div className="container banner-container">
             <article className="banner-img">
-              <img src="src/assets/images/Jeyakar-transparent.svg" alt="jeyakar" title="Jeyakar" />
+              <img src={getImageUrl('Jeyakar-transparent.svg')} alt="jeyakar" title="Jeyakar" />
             </article>
             <article className="banner-content">
               <VerticalCenterContainer>
