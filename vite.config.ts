@@ -18,4 +18,7 @@ export default defineConfig({
     strictPort: true,
     origin: 'http://localhost:5174'
   },
+  build: {
+    outDir: 'docs'
+  }
 });
